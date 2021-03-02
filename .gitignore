@@ -1,0 +1,3 @@
+*.pyc
+/state.txt
+/venv
