@@ -1,4 +1,4 @@
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/shiny-pokemon-scraper/master.svg)](https://results.pre-commit.ci/badge/github/asottile/shiny-pokemon-scraper/master.svg)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/shiny-pokemon-scraper/master.svg)](https://results.pre-commit.ci/latest/github/asottile/shiny-pokemon-scraper/master)
 
 shiny-pokemon-scraper
 =====================
