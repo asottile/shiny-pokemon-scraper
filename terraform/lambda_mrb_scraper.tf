@@ -7,7 +7,7 @@ variable "email_to" {
 
 resource "aws_lambda_function" "mrb_scraper" {
   function_name = "mrb_scraper"
-  filename      = "${path.module}/data/dummy_lambda.zip"
+  filename      = "${path.module}/data/placeholder_lambda.zip"
   role          = aws_iam_role.lambda_mrb_scraper.arn
   handler       = "handler.lambda_handler"
   runtime       = "python3.8"
