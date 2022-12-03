@@ -18,7 +18,7 @@ this code does the following:
 - (state is retained so it only emails once)
 
 [any event den page]: https://www.serebii.net/scarletviolet/teraraidbattles/event-eeveespotlight.shtml
-[the flower event]: https://www.serebii.net/scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml
+[the charizard event]: https://www.serebii.net/scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml
 
 ### architecture
 
