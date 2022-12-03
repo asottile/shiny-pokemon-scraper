@@ -74,7 +74,7 @@ def lambda_handler(event: object, context: object) -> None:
         msg['From'] = EMAIL_FROM
         msg['To'] = EMAIL_TO
         msg.set_content(
-            f'CHECK OUT THIS HOT NEW MAX RAID BATTLE\n\n'
+            f'CHECK OUT THIS HOT NEW RAID BATTLE\n\n'
             f'IT HAS A SHINY\n\n'
             f'{parser.page}',
         )
