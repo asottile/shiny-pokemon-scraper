@@ -13,7 +13,7 @@ import boto3
 lambda_client = boto3.client('lambda')
 ses_client = boto3.client('ses')
 
-URL = 'https://serebii.net/swordshield/maxraidbattles/eventden-may2020.shtml'
+URL = 'https://www.serebii.net/scarletviolet/teraraidbattles/event-eeveespotlight.shtml'  # noqa: E501
 EMAIL_FROM = os.environ['EMAIL_FROM']
 EMAIL_TO = os.environ['EMAIL_TO']
 

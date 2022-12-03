@@ -3,9 +3,9 @@
 shiny-pokemon-scraper
 =====================
 
-automatically detect max raid events with guaranteed shiny pokemon
+automatically detect tera raid events with guaranteed shiny pokemon
 
-I always seem to miss the max raid battle events (which sometimes have
+I always seem to miss the tera raid battle events (which sometimes have
 guaranteed shiny pokemon!).  I decided to try and automate this using a
 reputable news source and a little bit of code.
 
@@ -14,11 +14,11 @@ this code does the following:
 - load [any event den page]
 - find the latest event den
 - if the latest event den has `<b>Shiny Rate</b>` send an email.  for example
-  [the flower event]
+  [the charizard event]
 - (state is retained so it only emails once)
 
-[any event den page]: https://serebii.net/swordshield/maxraidbattles/eventden-may2020.shtml
-[the flower event]: https://www.serebii.net/swordshield/maxraidbattles/eventden-flowerevent.shtml
+[any event den page]: https://www.serebii.net/scarletviolet/teraraidbattles/event-eeveespotlight.shtml
+[the flower event]: https://www.serebii.net/scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml
 
 ### architecture
 
