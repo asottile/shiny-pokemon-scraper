@@ -37,7 +37,13 @@ class FindSelect(html.parser.HTMLParser):
                 attrs_d['name'] == 'SelectURL'
         ):
             self._in_select = True
-        elif self._in_select and self.page is None and attrs_d:
+        elif (
+                self._in_select and
+                self.page is None and
+                attrs_d and
+                attrs_d['value'] and
+                attrs_d['value'].count('/') == 3
+        ):
             self.page = f'https://serebii.net{attrs_d["value"]}'
 
 
@@ -60,7 +66,7 @@ def lambda_handler(event: object, context: object) -> None:
         return
 
     resp = urllib.request.urlopen(parser.page)
-    if b'<b>Shiny Rate</b>' in resp.read():
+    if b'<b>Shiny Rate?</b>' in resp.read():
         print('SHINY!')
 
         msg = email.message.EmailMessage()
