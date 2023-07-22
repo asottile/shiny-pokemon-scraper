@@ -10,7 +10,7 @@ resource "aws_lambda_function" "mrb_scraper" {
   filename      = "${path.module}/data/placeholder_lambda.zip"
   role          = aws_iam_role.lambda_mrb_scraper.arn
   handler       = "handler.lambda_handler"
-  runtime       = "python3.8"
+  runtime       = "python3.10"
   timeout       = 600
 
   environment {
